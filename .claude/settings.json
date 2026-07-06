@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd  ~ && pwd)",
+      "Read(//c/Users/Mr.J/**)",
+      "Bash(ls -la \"/c/Users/Mr.J/AppData/Roaming/Code/User/snippets/\" 2>/dev/null || echo \"NOT_FOUND\")",
+      "Read(//c/Users/Mr.J/AppData/Roaming/Code/User/snippets//**)",
+      "Bash(ls -la \"/c/Users/Mr.J/AppData/Roaming/Code/extensions/\" | grep -i java 2>/dev/null || echo \"NO_JAVA_EXTENSIONS\")",
+      "Read(//c/Users/Mr.J/AppData/Roaming/Code/**)",
+      "Bash(code --list-extensions)",
+      "Bash(code --install-extension \"vscjava.vscode-java-pack\")"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\Mr.J\\AppData\\Roaming\\Code\\User\\snippets"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+# ====================
+# 编译产物 - 所有语言的 build 输出
+# ====================
+build/
+out/
+cmake-build-*/
+
+# ====================
+# C/C++ 产物
+# ====================
+*.obj
+*.o
+*.lib
+*.dll
+*.exe
+*.pdb
+*.ilk
+
+# ====================
+# Java 产物
+# ====================
+*.class
+*.jar
+*.war
+
+# ====================
+# Python
+# ====================
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+*.egg
+
+# ====================
+# Node / JavaScript
+# ====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ====================
+# IDE 项目文件（不用提交）
+# ====================
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ====================
+# VS Code 生成文件
+# ====================
+*.code-workspace
